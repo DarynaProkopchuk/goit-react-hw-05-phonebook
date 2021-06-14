@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 
-import * as actions from '../../redux/PhoneBook/actions';
+import * as actions from '../../redux/phoneBook/actions';
 
 const Filter = ({ filter, onChange }) => {
   return (

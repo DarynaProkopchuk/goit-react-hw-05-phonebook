@@ -11,7 +11,7 @@ import {
 import storage from 'redux-persist/lib/storage';
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
-import phoneBookReducer from './PhoneBook/reducer';
+import phoneBookReducer from './PhoneBook /reducer';
 
 const persistConfig = {
   key: 'phoneBook',

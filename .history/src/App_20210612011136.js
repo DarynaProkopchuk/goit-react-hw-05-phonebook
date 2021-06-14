@@ -30,7 +30,6 @@ export default class App extends Component {
     );
   };
 
-  //==================Home Work 03==================================
   componentDidMount() {
     const contacts = localStorage.getItem('contacts');
     const parcedContacts = JSON.parse(contacts);

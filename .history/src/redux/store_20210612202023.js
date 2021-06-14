@@ -11,7 +11,7 @@ import {
 import storage from 'redux-persist/lib/storage';
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
-import phoneBookReducer from './PhoneBook/reducer';
+import phoneBookReducer from './phoneBook/reducer';
 
 const persistConfig = {
   key: 'phoneBook',
@@ -37,4 +37,5 @@ const store = configureStore({
 
 const persistor = persistStore(store);
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default { store, persistor };
